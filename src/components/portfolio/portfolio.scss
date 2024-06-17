@@ -25,7 +25,7 @@
         height: 100%;
 
         .wrapper {
-            min-width: 1050px;
+            max-width: 1050px;
             height: 100%;
             margin: auto;
             display: flex;
@@ -68,6 +68,12 @@
                     padding: 10px;
                     width: 200px;
                     cursor: pointer;
+                    transition: 0.5s;
+                }
+
+                button:hover {
+                    scale: 1.05;
+                    background-color: rgb(240, 191, 102);
                 }
             }
         }

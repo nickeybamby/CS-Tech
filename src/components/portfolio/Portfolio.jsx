@@ -10,25 +10,25 @@ const items = [
     {
         id:1,
         title: "Uno Telos",
-        img: "https://drive.google.com/file/d/1RldlNY_MH5WZi3W8l9Vdd6fW1aY8vjej/view?usp=drive_link", 
+        img: unoTelos, 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
     },
     {
         id:2,
         title: "GPT 3",
-        img: "https://drive.google.com/file/d/1RldlNY_MH5WZi3W8l9Vdd6fW1aY8vjej/view?usp=drive_link", 
+        img: "", 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
     },
     {
         id:3,
         title: "Luxury Hotel",
-        img: "https://drive.google.com/file/d/1RldlNY_MH5WZi3W8l9Vdd6fW1aY8vjej/view?usp=drive_link", 
+        img: "", 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
     },
     {
         id:4,
         title: "Dating App",
-        img: "https://drive.google.com/file/d/1RldlNY_MH5WZi3W8l9Vdd6fW1aY8vjej/view?usp=drive_link", 
+        img: "", 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
     },
 ];
@@ -40,7 +40,7 @@ const Single = ({ item }) => {
         target: ref,
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], [-500, 500]);
+    const y = useTransform(scrollYProgress, [0, 1], [-200, 200]);
 
     return ( 
         <section >

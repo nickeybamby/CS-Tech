@@ -76,13 +76,14 @@
             flex-direction: column;
             justify-content: space-between;
             gap: 20px;
+            transition: 0.5s;
 
             button {
                 padding: 10px;
                 color: white;
                 background-color: purple;
                 border: none;
-                cursor: pointer;
+                cursor: "";
             }
         }
     }
