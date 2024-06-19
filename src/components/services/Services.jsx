@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const variants = {
     initial: {
-        x: -500,
-        y: 100,
+        x: -200,
+        y: 0,
         opacity: 0,
     },
     animate: {
@@ -28,7 +28,7 @@ const Services = () => {
        
     >
         <motion.div className="textContainer" variants={variants}>
-            <p>I focus on helping your brand grow and <br /> dominate its space</p>
+            <p>I focus on helping your brand grow <br /> and dominate its space</p>
             <hr />
         </motion.div>
         <motion.div className="titleContainer" variants={variants}>
@@ -44,7 +44,7 @@ const Services = () => {
                 </h1>
                 <button>WHAT WE DO</button>
             </div>
-        </motion.div>
+        </motion.div> 
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                 <h2>UX Design</h2>
@@ -53,7 +53,7 @@ const Services = () => {
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
+            <motion.div className="box" whileHover={{ background: "lightgray", color: "black",  }}>
                 <h2>Web Development</h2>
                 <p>
                     Our website development services combine cutting-edge technology with creative design to deliver impactful and user-friendly websites. We work closely with our clients to understand their unique goals and create tailored solutions that drive results.
