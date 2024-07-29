@@ -25,7 +25,7 @@ const items = [
         id:3,
         title: "Luxury Hotel",
         img: luxuryHotel, 
-        desc: "A luxury hotel design featuring mordern webiste practices with whatsapp integration for bookings. ",
+        desc: "A luxury hotel design featuring modern website practices with whatsapp integration for bookings. ",
         link: "https://hotel-app-ochre.vercel.app/",
     },
     {
