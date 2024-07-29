@@ -54,15 +54,18 @@
                     color: white;
                     cursor: pointer;
                     font-weight: 300;
-
-                }
-            
+                    z-index: 50;
+                    
+                    }
+                
                 .butt {
                     background: wheat;
                     color: black;
                     outline: 0;
                     border: none;
+                    cursor: pointer;
                     font-weight: 800;
+                    z-index: 50;
                 }
             }
 

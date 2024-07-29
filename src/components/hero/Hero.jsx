@@ -38,6 +38,12 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+
+    const items = [
+        "Portfolio",
+        "Contact",
+    ];
+
   return (
     <div className="hero">
         <div className="wrapper">
@@ -47,7 +53,7 @@ const Hero = () => {
                 <motion.h1 variants={textVariants} >Web developer and UI designer</motion.h1>
                 <motion.div variants={textVariants} className="buttons">
                     <motion.button variants={textVariants} >See Latest Works</motion.button>
-                    <motion.button className="butt" variants={textVariants} >Contact Me</motion.button>
+                    <motion.button className="butt" variants={textVariants} a href>Contact Me</motion.button>
                 </motion.div>
                 <motion.img variants={textVariants} animate= "scrollButton" src="/scroll.svg
                   " alt="" />

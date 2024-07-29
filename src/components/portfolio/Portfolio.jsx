@@ -4,6 +4,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 import unoTelos from '../../../public/unoTelos.png'
 import gpt3 from '../../../public/gpt3.webp'
+import luxuryHotel from '../../../public/luxuryHotel.png'
 
 const items = [
     {
@@ -23,9 +24,9 @@ const items = [
     {
         id:3,
         title: "Luxury Hotel",
-        img: "", 
-        desc: "A full website design and development of a multi-national cutting-edge technology and service company",
-        link: "",
+        img: luxuryHotel, 
+        desc: "A luxury hotel design featuring mordern webiste practices with whatsapp integration for bookings. ",
+        link: "https://hotel-app-ochre.vercel.app/",
     },
     {
         id:4,
