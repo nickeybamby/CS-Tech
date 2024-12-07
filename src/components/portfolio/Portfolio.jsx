@@ -12,7 +12,7 @@ const items = [
         title: "Uno Telos",
         img: unoTelos, 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
-        link: "https://uno-telos-project.vercel.app/",
+        link: "https://uno-website-alpha.vercel.app/",
     },
     {
         id:2,
@@ -25,14 +25,14 @@ const items = [
         id:3,
         title: "Luxury Hotel",
         img: luxuryHotel, 
-        desc: "A luxury hotel design featuring modern website practices with whatsapp integration for bookings. ",
-        link: "https://hotel-app-ochre.vercel.app/",
+        desc: "A luxury hotel design featuring modern website practices with WhatsApp integration for bookings. ",
+        link: "https://www.hoteldezani.com/",
     },
     {
         id:4,
         title: "Dating App",
         img: "", 
-        desc: "A full website design and development of a multi-national cutting-edge technology and service company",
+        desc: "Coming Soon",
         link: "",
     },
 ];
@@ -64,7 +64,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button onClick={handleButtonClick}>See Demo</button>
+                        <button onClick={handleButtonClick}>View Website</button>
                     </motion.div>
                 </div>
             </div>
