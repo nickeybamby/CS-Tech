@@ -23,7 +23,7 @@ const items = [
     },
     {
         id:3,
-        title: "Luxury Hotel",
+        title: "Hotel De'zani",
         img: luxuryHotel, 
         desc: "A luxury hotel design featuring modern website practices with WhatsApp integration for bookings. ",
         link: "https://www.hoteldezani.com/",
