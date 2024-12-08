@@ -2,7 +2,7 @@ import "./portfolio.scss"
 import React, { useRef } from 'react';
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
-import unoTelos from '../../../public/unoTelos.png'
+import unotelos from '../../../public/unotelos.png'
 import gpt3 from '../../../public/gpt3.webp'
 import luxuryHotel from '../../../public/luxuryHotel.png'
 
@@ -10,7 +10,7 @@ const items = [
     {
         id:1,
         title: "Uno Telos",
-        img: unoTelos, 
+        img: unotelos, 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
         link: "https://uno-website-alpha.vercel.app/",
     },
