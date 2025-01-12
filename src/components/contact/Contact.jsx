@@ -47,11 +47,11 @@ const Contact = () => {
         <motion.div className="textContainer" variants={variants}>
             <motion.h1 variants={variants}>Let's work together</motion.h1>
             <motion.div className="item" variants={variants}>
-                <h2>Hi there...</h2>
+                <h2 className="font-bold">Hi there...</h2>
                 <span>Tell us your project goals and vision in detail so we can understand your needs and craft a tailored solution to bring your ideas to life.</span>
             </motion.div>
             <motion.div className="item">
-                <h2>Mail</h2>
+                <h2 className="font-bold">Mail</h2>
                 <span>hello@clinicraftstudios.xyz</span>
             </motion.div>
 {/*             <motion.div className="item">

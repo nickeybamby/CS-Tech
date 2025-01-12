@@ -28,13 +28,13 @@ const items = [
         desc: "A luxury hotel design featuring modern website practices with WhatsApp integration for bookings. ",
         link: "https://www.hoteldezani.com/",
     },
-    {
-        id:4,
-        title: "Dating App",
-        img: "", 
-        desc: "Coming Soon",
-        link: "",
-    },
+    // {
+    //     id:4,
+    //     title: "Dating App",
+    //     img: "", 
+    //     desc: "Coming Soon",
+    //     link: "",
+    // },
 ];
 
 const Single = ({ item }) => {
@@ -64,7 +64,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button onClick={handleButtonClick}>View Website</button>
+                        <button className="prtfolio__btn" onClick={handleButtonClick}>View Website</button>
                     </motion.div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio" ref={ref}>
             <div className="progress">
-                <h1>Featured Works</h1>
+                <h1 className="font-bold">Featured Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
             </div>
             {items.map((item) => (

@@ -1,0 +1,26 @@
+.prjts {
+  color: purple;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.medium__screen {
+    display: hidden;
+}
+
+@import "../../app.scss";
+
+@include mobile {
+  .fancy__img {
+    height: 130px;
+    width: 8%;
+  }
+
+  .medium__screen {
+    border-radius: 0.75rem;
+    width: 80%;
+    height: 90%;
+    z-index: 10;
+    transition: background-image 0.5s ease-in-out, background-size 0.5s ease-in-out;
+  }
+}
