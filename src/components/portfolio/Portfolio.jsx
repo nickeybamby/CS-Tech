@@ -2,6 +2,7 @@ import "./portfolio.scss"
 import React, { useRef } from 'react';
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
+import unotelos from '../../../public/softouch.png'
 import unotelos from '../../../public/unotelos.png'
 import gpt3 from '../../../public/gpt3.webp'
 import luxuryHotel from '../../../public/luxuryHotel.png'
@@ -9,32 +10,39 @@ import luxuryHotel from '../../../public/luxuryHotel.png'
 const items = [
     {
         id:1,
+        title: "Softouch Clothing",
+        img: softouch, 
+        desc: "A MERN Stack e-Commerce website with user-auth, admin dashboard, cart and checkout integration",
+        link: "https://uno-website-alpha.vercel.app/",
+    },
+    {
+        id:2,
         title: "Uno Telos",
         img: unotelos, 
         desc: "A full website design and development of a multi-national cutting-edge technology and service company",
         link: "https://uno-website-alpha.vercel.app/",
     },
     {
-        id:2,
+        id:3,
         title: "GPT 3 React",
         img: gpt3, 
         desc: "An innovative and modern website design showcasing the capabilities of GPT-3. Featuring a sleek, minimalist interface",
         link: "https://what-gpt3.vercel.app/",
     },
     {
-        id:3,
+        id:4,
         title: "Hotel De'zani",
         img: luxuryHotel, 
         desc: "A luxury hotel design featuring modern website practices with WhatsApp integration for bookings. ",
         link: "https://www.hoteldezani.com/",
     },
-    // {
-    //     id:4,
-    //     title: "Dating App",
-    //     img: "", 
-    //     desc: "Coming Soon",
-    //     link: "",
-    // },
+    {
+        id:5,
+        title: "Biko App",
+        img: "", 
+        desc: "An app for social good — Coming Soon",
+        link: "",
+    },
 ];
 
 const Single = ({ item }) => {
