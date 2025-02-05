@@ -13,7 +13,7 @@ const items = [
         title: "Softouch Clothing",
         img: softouch, 
         desc: "A MERN Stack e-Commerce website with user-auth, admin dashboard, cart and checkout integration",
-        link: "",
+        link: "https://github.com/nickeybamby/softouchClothing/tree/main/frontend",
     },
     {
         id:2,
