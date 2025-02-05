@@ -13,7 +13,7 @@ const items = [
         title: "Softouch Clothing",
         img: softouch, 
         desc: "A MERN Stack e-Commerce website with user-auth, admin dashboard, cart and checkout integration",
-        link: "https://uno-website-alpha.vercel.app/",
+        link: "",
     },
     {
         id:2,
