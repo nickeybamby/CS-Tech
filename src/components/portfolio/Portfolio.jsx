@@ -2,7 +2,7 @@ import "./portfolio.scss"
 import React, { useRef } from 'react';
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
-import unotelos from '../../../public/softouch.png'
+import softouch from '../../../public/softouch.png'
 import unotelos from '../../../public/unotelos.png'
 import gpt3 from '../../../public/gpt3.webp'
 import luxuryHotel from '../../../public/luxuryHotel.png'
